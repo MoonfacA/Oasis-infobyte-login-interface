@@ -1,0 +1,193 @@
+:root {
+  --mainColor: #a802a8;
+  
+}
+
+body {
+  color: var(--mainColor);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+ 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--mainColor);
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+.mt-5{
+  text-align: center;
+}
+.img{
+  display: block;
+  margins-left:auto;
+  margins-right: auto;
+  float: right;
+}
+::selection {
+  background-color: var(--mainColor);
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+}
+
+.mainColor {
+  color: #fff;
+  
+}
+.py-5 {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+
+}
+.text-primary mb-4
+
+.btn-main {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #004da4;
+  --bs-btn-border-color: #004da4;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #003694;
+  --bs-btn-hover-border-color: #003694;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #003694;
+  --bs-btn-active-border-color: #003694;
+}
+
+main {
+  min-height: 200vh;
+  
+}
+
+main nav {
+  box-shadow: 0px -8px 22px 4px rgba(0, 77, 165, 0.45);
+  background-color: rgb(253 253 253 / 43%) !important;
+  
+}
+
+.navbar-toggler {
+  border: none;
+  color: var(--mainColor);
+  font-size: 1.375rem;
+}
+
+main .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+main .form-control:focus {
+  border-color: #004da413;
+  box-shadow: 0 0 0 0.25rem rgba(0, 76, 163, 0.25);
+
+}
+section.py-5{
+  display: block;
+  justify-content: center;
+  padding: auto;
+ 
+  display: flex;
+  margins: auto;
+}
+
+.boxContainer {
+  
+  background-color: rgba(22, 1, 1, 0.43);
+  box-shadow: -6px 10px 15px -5px rgba(0, 77, 165, 0.45);
+  border-left: 1px #20c58e13;
+  border-right: 1px #20c58e13;
+  max-width: 350px;
+  max-height: 900PX;
+  background: transparent;
+  border-radius: 40px;
+  padding: 25px 35px;
+  margin: 20px;
+  display: inline-block;
+  justify-content: center;
+  float: none;
+  text-align: center;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.inputsForm{
+  margin-top: 20px;
+  
+  
+}
+
+
+.form-control{
+  width: 80%;
+  background: linear-gradient( #9dc9b7, #91adb6);
+  border: 0.001px solid  rgb(7, 7, 7);
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow:  #43a6e9 -10px -10px 10px -10px;
+  border-inline: 0.001px solid;
+sparen
+}
+
+.form-control::-moz-placeholder{
+  font-size: 48px;
+  text-align: center;
+
+}
+
+.btn.btn-main.my-4.w-100{
+  display: block;
+  width: 80%;
+  background: #d6dee4;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  font-size: 18px;
+  font-color: #d6dee4;
+  border: 0.1px solid var(--mainColor);
+
+
+
+}
+
+.text-decoration-none{
+  color: #d6dee4;
+  
+}
+.signupAnchor {
+  color: #d6dee4;
+
+}
+.swal-button {
+  background-color: var(--mainColor);
+  border-color: var(--mainColor);
+  color:
+  text-color: #d6dee4;
+}
+
+.swal-button:not([disabled]):hover {
+  background-color: #2c139b;
+  border-color: #003694;
+}
+
+
+@media screen and (max-width: 400px) {
+  :root {
+    font-size: 12px;
+  }
+}
